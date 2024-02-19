@@ -13,14 +13,14 @@ void main() {
     // load palettes, sources:
     //   - https://github.com/ivstiv/pixelart-converter/tree/master/src/main/resources/palettes
 
-    void dress(String filePalette) {
+    void dress(String filePalette) async {
       const fileSource = 'colorful_swirl';
       final palette = UniPalette<int>.file(
         'test/data/palettes/$filePalette.json',
         ColorModel.rgb,
       );
       final image =
-          dresser.dressFile(File('test/data/$fileSource.webp'), palette);
+          await dresser.dressFile(File('test/data/$fileSource.webp'), palette);
       File('$testOutputPath/dresser - some real palettes'
           '/${fileSource}_$filePalette.png')
         ..createSync(recursive: true)

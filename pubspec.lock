@@ -153,14 +153,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.1.0"
-  kdtree:
-    dependency: transitive
-    description:
-      name: kdtree
-      sha256: "3500ab3ad9669a726c7d9837ce7025583fef88f85fd66bcba23bb7fe280e6486"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.0"
   lints:
     dependency: "direct dev"
     description:
