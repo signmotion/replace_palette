@@ -1,0 +1,31 @@
+name: replace_palette
+description: >-
+  Replaces the color palette in an image, respecting the color models.
+  The easy-to-use and well-tested package.
+repository: https://github.com/signmotion/replace_palette
+publish_to: none
+topics:
+  - palette
+  - color
+  - replace
+  - edit
+  - image
+
+# Format:
+#   version: major.minor.patch
+# You can calculate the number version code by this formula:
+#   code = m[A]jor * 100 * 100 + m[I]nor * 100 + [P]atch
+# Otherwise: +AAIIPP
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  image: ^4.1.6
+  uni_color_name:
+    path: ../uni_color_name
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.25.2
