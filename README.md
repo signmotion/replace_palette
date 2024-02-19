@@ -9,13 +9,28 @@ The easy-to-use and well-tested package.
 
 ## Usage
 
-TODO Source image.
+![Source image]((<https://raw.githubusercontent.com/signmotion/replace_palette/master/images/colorful_swirl.webp>)
+
+⬇️
 
 ```dart
-TODO
+final palette = UniPalette<int>.file('my_palette.json', ColorModel.rgb);
+final image = const Dresser().dressFile(File('my_image.webp'), palette);
+File('my_result.png')
+  ..createSync(recursive: true)
+  ..writeAsBytesSync(encodePng(image));
+
 ```
 
-TODO Result image.
+⬇️
+
+### Faber Castell 36 Palette
+
+![Faber Castell 36 Palette - Result image]((<https://raw.githubusercontent.com/signmotion/replace_palette/master/images/colorful_swirl_faber_castell_36.webp>)
+
+### Black and White Palette
+
+![Black and White Palette - Result image]((<https://raw.githubusercontent.com/signmotion/replace_palette/master/images/colorful_swirl_black_white.webp>)
 
 ## Welcome
 
