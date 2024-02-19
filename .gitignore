@@ -8,4 +8,5 @@
 
 /.vscode/settings.json
 
+/example/_output/
 /test/_output/
