@@ -34,11 +34,8 @@ Share some ❤️ and star repo to support the project.
 
 ```dart
 final palette = UniPalette<int>.file('my_palette.json', ColorModel.rgb);
-final image = await const Dresser().dressFile(File('my_image.webp'), palette);
-File('my_result.png')
-  ..createSync(recursive: true)
-  ..writeAsBytesSync(encodePng(image));
-
+final image = await const Dresser().dressFile(File('source.webp'), palette);
+File('result.png').writeAsBytesSync(encodePng(image));
 ```
 
 ⬇️
