@@ -149,10 +149,10 @@ packages:
     dependency: transitive
     description:
       name: json_dart
-      sha256: debc7f3cfaaf81383ac1370fd435b317eca9977927b310ea8922e0e448bb3e13
+      sha256: d21be59768056cf935f52c85ed2e3390ed3d8c540679d3d6bfdaa7348762ba19
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.0"
+    version: "0.1.2"
   lints:
     dependency: "direct dev"
     description:
@@ -181,10 +181,10 @@ packages:
     dependency: transitive
     description:
       name: meta
-      sha256: "7687075e408b093f36e6bbf6c91878cc0d4cd10f409506f7bc996f68220b9136"
+      sha256: d584fa6707a52763a52446f02cc621b077888fb63b93bbcb1143a7be5a0c0c04
       url: "https://pub.dev"
     source: hosted
-    version: "1.12.0"
+    version: "1.11.0"
   mime:
     dependency: transitive
     description:
@@ -369,13 +369,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.2"
+  uni_color_model:
+    dependency: "direct main"
+    description:
+      name: uni_color_model
+      sha256: "832b43a89ba14084acb654aac95875f0beacd6d6703eed2fe956ee45a2df335c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.0"
   uni_color_name:
     dependency: "direct main"
     description:
-      path: "../uni_color_name"
-      relative: true
-    source: path
-    version: "0.2.0"
+      name: uni_color_name
+      sha256: b0afcb970859522a155e6f4bbd597459201b412211914121503de1bf312baa94
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.0"
+  uni_color_palette:
+    dependency: transitive
+    description:
+      name: uni_color_palette
+      sha256: "9ec38b2baa6330376dddcca119f7adef1379037d6553be7f7b213cb346923f79"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.1"
   vector_math:
     dependency: transitive
     description:
@@ -427,10 +444,11 @@ packages:
   wfile:
     dependency: transitive
     description:
-      path: "../wfile"
-      relative: true
-    source: path
-    version: "0.3.3"
+      name: wfile
+      sha256: "9ed894c97aceee96e7c1f85b4574a6be18759f4b928e1a527639270663d41c66"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.3"
   xml:
     dependency: transitive
     description:

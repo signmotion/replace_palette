@@ -23,8 +23,8 @@ environment:
 
 dependencies:
   image: ^4.1.6
-  uni_color_name:
-    path: ../uni_color_name
+  uni_color_model: ^0.2.0
+  uni_color_name: ^0.7.0
 
 dev_dependencies:
   lints: ^3.0.0
