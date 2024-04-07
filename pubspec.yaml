@@ -3,7 +3,6 @@ description: >-
   Replaces the color palette in an image, respecting the color models.
   The easy-to-use and well-tested package.
 repository: https://github.com/signmotion/replace_palette
-publish_to: none
 topics:
   - palette
   - color
