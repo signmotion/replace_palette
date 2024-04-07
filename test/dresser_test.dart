@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:image/image.dart' hide Palette;
 import 'package:replace_palette/replace_palette.dart';
 import 'package:test/test.dart';
-import 'package:uni_color_name/uni_color_name.dart';
+import 'package:uni_color_model/uni_color_model.dart';
 
 import 'utils.dart';
 

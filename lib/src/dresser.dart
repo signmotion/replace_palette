@@ -10,20 +10,21 @@ class Dresser {
   /// Replaces all colors in the [source] with the nearest colors
   /// from the [palette].
   Future<Image> dress(Image source, UniPalette<int> palette) async {
-    final cache = <int, UniColor<int>>{};
+    final colorName = UniColorName(palette);
+    final cache = <int, RgbInt8Color>{};
     var i = 0;
     for (final frame in source.frames) {
       for (final p in frame) {
-        final color = (ColorModel.rgb, p.r.toInt(), p.g.toInt(), p.b.toInt());
+        final color = RgbInt8Color.rgb(p.r.toInt(), p.g.toInt(), p.b.toInt());
         final c = cache.update(
-          color.i256,
+          color.int24,
           (v) => v,
-          ifAbsent: () => palette.closest(color, distance).$2,
+          ifAbsent: () => colorName.closest(color, distance).rgbInt8Color,
         );
         p
-          ..r = c.red
-          ..g = c.green
-          ..b = c.blue;
+          ..r = c.r
+          ..g = c.g
+          ..b = c.b;
 
         // to release the UI
         ++i;
