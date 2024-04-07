@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'dart:io';
 
 import 'package:image/image.dart' hide Palette;
@@ -7,13 +9,13 @@ import 'package:uni_color_model/uni_color_model.dart';
 
 import 'utils.dart';
 
-void main() {
+void main() async {
   group('Dresser - some real palettes', () {
     const dresser = Dresser();
     // load palettes, sources:
     //   - https://github.com/ivstiv/pixelart-converter/tree/master/src/main/resources/palettes
 
-    void dress(String filePalette) async {
+    Future<void> dress(String filePalette) async {
       const fileSource = 'colorful_swirl';
       final palette = UniPalette<int>.file(
         'test/data/palettes/$filePalette.json',
@@ -27,7 +29,7 @@ void main() {
         ..writeAsBytesSync(encodePng(image));
     }
 
-    test('dress all', () {
+    test('dress all', () async {
       const filesPalettes = [
         'black_rgb_white',
         'black_white',
@@ -38,7 +40,8 @@ void main() {
         'sepia',
       ];
       for (final fp in filesPalettes) {
-        dress(fp);
+        print('Dressing `$fp`...');
+        await dress(fp);
       }
     });
   });
