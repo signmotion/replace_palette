@@ -28,9 +28,9 @@ Share some ❤️ and star repo to support the project.
 
 ## Usage
 
-![Source image](https://raw.githubusercontent.com/signmotion/replace_palette/master/images/colorful_swirl.webp)
+### Original Source
 
-⬇️
+![Source image](https://raw.githubusercontent.com/signmotion/replace_palette/master/images/colorful_swirl.webp)
 
 ```dart
 final palette = UniPalette<int>.file('my_palette.json', ColorModel.rgb);
