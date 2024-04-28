@@ -45,9 +45,9 @@ For a contribution to be accepted:
 - Documentation should always be updated or added.\*
 - Examples should always be updated or added.\*
 - Tests should always be updated or added.\*
-- Format the Dart code accordingly with `flutter format`.
-- Your code should pass the analyzer checks `melos run analyze`.
-- Your code should pass all tests `melos run test`.
+- Format the Dart code accordingly with `dart format .`.
+- Your code should pass the analyzer checks `dart analyze`.
+- Your code should pass all tests `dart test --concurency=1`.
 - Start your PR title with a [conventional commit] type
   (`feat:`, `fix:` etc).
 
@@ -75,7 +75,7 @@ and it will be automatically reflected in the PR.
 
 ### Open a pull request
 
-Go to the [pull request page of ReplacePalette][PRs] and in the top
+Go to the [pull request page of ReplaceColorPalette][PRs] and in the top
 of the page it will ask you if you want to open a pull request from your newly created branch.
 
 The title of the pull request should start with a [conventional commit] type.
@@ -92,7 +92,7 @@ If you introduce a **breaking change** the conventional commit type MUST end wit
 mark (e.g. `feat!: Remove the argument from ZipLoader.getFile()`).
 
 [GitHub issue]: https://github.com/signmotion/replace_palette/issues/new
-[GitHub issues]: https://github.com/signmotion/replace_palette/issues/new
+[GitHub issues]: https://github.com/signmotion/replace_palette/issues
 [PRs]: https://github.com/signmotion/replace_palette/pulls
 [fork guide]: https://guides.github.com/activities/forking/#fork
-[conventional commit]: https://www.conventionalcommits.org
+[conventional commit]: https://conventionalcommits.org
