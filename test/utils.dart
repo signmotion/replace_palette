@@ -2,7 +2,7 @@ import 'package:image/image.dart';
 import 'package:test/test.dart';
 
 //final testOutputPath = '${Directory.systemTemp.createTempSync().path}/output';
-const testOutputPath = './test/_output';
+const testOutputPath = './_output';
 
 void testImageEquals(Image a, Image b) {
   expect(b.width, equals(a.width));
