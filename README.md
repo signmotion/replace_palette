@@ -1,28 +1,28 @@
 # Replace Color Palette
 
+![SDK version](https://badgen.net/pub/sdk-version/replace_palette?style=for-the-badge)
+![Supported platforms](https://badgen.net/pub/flutter-platform/replace_palette?style=for-the-badge)
+![Supported SDKs](https://badgen.net/pub/dart-platform/replace_palette?style=for-the-badge)
+
 ![Cover - Replace Color Palette](https://raw.githubusercontent.com/signmotion/replace_palette/master/images/cover.webp)
 
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Pub Package](https://img.shields.io/pub/v/replace_palette.svg?logo=dart&logoColor=00b9fc&color=blue)](https://pub.dartlang.org/packages/replace_palette)
-[![Code Size](https://img.shields.io/github/languages/code-size/signmotion/replace_palette?logo=github&logoColor=white)](https://github.com/signmotion/replace_palette)
-[![Publisher](https://img.shields.io/pub/publisher/replace_palette)](https://pub.dev/publishers/syrokomskyi.com)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Pub Package](https://img.shields.io/pub/v/replace_palette.svg?logo=dart&logoColor=00b9fc&color=blue&style=for-the-badge)](https://pub.dartlang.org/packages/replace_palette)
+[![Code Size](https://img.shields.io/github/languages/code-size/signmotion/replace_palette?logo=github&logoColor=white&style=for-the-badge)](https://github.com/signmotion/replace_palette)
+[![Publisher](https://img.shields.io/pub/publisher/replace_palette?style=for-the-badge)](https://pub.dev/publishers/syrokomskyi.com)
 
-![SDK version](https://badgen.net/pub/sdk-version/replace_palette)
-![Supported platforms](https://badgen.net/pub/flutter-platform/replace_palette)
-![Supported SDKs](https://badgen.net/pub/dart-platform/replace_palette)
-
-[![Build Status](https://img.shields.io/github/actions/workflow/status/signmotion/replace_palette/dart-ci.yml?logo=github-actions&logoColor=white)](https://github.com/signmotion/replace_palette/actions)
-[![Pull Requests](https://img.shields.io/github/issues-pr/signmotion/replace_palette?logo=github&logoColor=white)](https://github.com/signmotion/replace_palette/pulls)
-[![Issues](https://img.shields.io/github/issues/signmotion/replace_palette?logo=github&logoColor=white)](https://github.com/signmotion/replace_palette/issues)
-[![Pub Score](https://img.shields.io/pub/points/replace_palette?logo=dart&logoColor=00b9fc)](https://pub.dev/packages/replace_palette/score)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/signmotion/replace_palette/dart-ci.yml?logo=github-actions&logoColor=white&style=for-the-badge)](https://github.com/signmotion/replace_palette/actions)
+[![Pull Requests](https://img.shields.io/github/issues-pr/signmotion/replace_palette?logo=github&logoColor=white&style=for-the-badge)](https://github.com/signmotion/replace_palette/pulls)
+[![Issues](https://img.shields.io/github/issues/signmotion/replace_palette?logo=github&logoColor=white&style=for-the-badge)](https://github.com/signmotion/replace_palette/issues)
+[![Pub Score](https://img.shields.io/pub/points/replace_palette?logo=dart&logoColor=00b9fc&style=for-the-badge)](https://pub.dev/packages/replace_palette/score)
 
 Replaces the color palette in an image, respecting the color models.
 The easy-to-use and [well-tested](https://github.com/signmotion/replace_palette/tree/master/test) package.
 Feel free to use it in your awesome project.
 
-[![CodeFactor](https://codefactor.io/repository/github/signmotion/replace_palette/badge)](https://codefactor.io/repository/github/signmotion/replace_palette)
+[![CodeFactor](https://codefactor.io/repository/github/signmotion/replace_palette/badge?style=for-the-badge)](https://codefactor.io/repository/github/signmotion/replace_palette)
 
-Share some ❤️ and star repo to support the project.
+Share some ❤️ and star repo to support the [Replace Color Palette](https://github.com/signmotion/replace_palette).
 
 _If you write an article about **ReplaceColorPalette** or any of [these](https://pub.dev/packages?q=publisher%3Asyrokomskyi.com&sort=updated) packages, let me know and I'll post the URL of the article in the **README**_ 🤝
 
